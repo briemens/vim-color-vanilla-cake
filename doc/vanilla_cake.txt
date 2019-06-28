@@ -1,0 +1,19 @@
+*vanilla_cake.txt*	For Vim version 8.0	Last change: 2019 Jun 29
+
+
+		  Vanilla Cake 🍰  by Sainnhepark
+
+	       Light & Eye-friendly Color Scheme
+
+==============================================================================
+Colorscheme options					vanilla_cake-options*
+
+						*g:light_transp_bg*
+Set to 1 if you want a transparent background. Takes effect only in the
+terminal.
+>
+	let g:light_transp_bg = 0
+<
+
+ vim:tw=78:ts=8:noet:ft=help:norl:
+

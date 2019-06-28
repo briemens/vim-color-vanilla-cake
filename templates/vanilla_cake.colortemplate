@@ -1,0 +1,258 @@
+# vim: ft=colortemplate fdm=marker cc=22,40,58
+
+# ":help fold-marker" to get better display of this file
+# Information {{{
+Full name:           Vanilla Cake
+Short name:          vanilla_cake
+Author:              Sainnhepark <sainnhe@gmail.com>
+Maintainer:          Sainnhepark <sainnhe@gmail.com>
+Website:             https://github.com/sainnhe/vim-color-vanilla-cake/
+Description:         🍰 Light & Eye-friendly Color Scheme
+License:             MIT && Anti-996
+Option Prefix:       light
+# }}}
+
+# Documentation {{{
+Include: _help.colortemplate
+# }}}
+
+# Common linked groups {{{
+QuickFixLine      -> Search
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+Structure         -> Type
+Boolean           -> Constant
+Define            -> PreProc
+SpecialChar       -> Special
+# Other conventional group names (see `:help group-name`)
+Debug             -> Special
+Include           -> PreProc
+Macro             -> PreProc
+Repeat            -> Statement
+# See `:help lCursor`
+lCursor           -> Cursor
+# }}}
+
+Background: light
+
+# Color palette {{{
+# Color name         GUI               Base256           Base16 (optional)
+Color: light         #f9ebd0           ~                 White
+Color: lightgrey     #f6e2ba           ~                 LightGrey
+Color: grey          #778b81           ~                 Grey
+Color: dark          #566b60           ~                 Black
+Color: red           #d45770           ~                 Red
+Color: orange        #ce684e           ~                 Yellow
+Color: yellow        #ba7d00           ~                 LightGrey
+Color: brightgreen   #40811f           ~                 Green
+Color: green         #188752           ~                 Green
+Color: cyan          #308090           ~                 Cyan
+Color: blue          #5674a5           ~                 Blue
+Color: magenta       #ba5c95           ~                 Magenta
+Color: lightred      #f6babd           ~                 LightRed
+Color: lightgreen    #c1e5b1           ~                 LightGreen
+Color: lightorange   #eecbb4           ~                 LightYellow
+Color: lightblue     #bae1f0           ~                 LightBlue
+# }}}
+
+# Terminal colors {{{
+Term colors: dark red green orange blue magenta cyan light
+Term colors: dark red green orange
+Term colors: blue magenta cyan light
+# }}}
+
+# Default highlight groups {{{
+Variant: gui
+#if get(g:, '@optionprefix_transp_bg', 0) && !has('gui_running')
+Variant: 256 8
+#if get(g:, '@optionprefix_transp_bg', 0)
+Variant: gui 256 8
+    Normal           dark              none
+    Terminal         dark              none
+#else
+    Normal           dark              light
+    Terminal         dark              light
+#endif
+
+# Group              Foreground        Background        Attributes
+ColorColumn          fg                light
+Conceal              grey              none
+Cursor               lightgrey         light
+CursorColumn         none              lightgrey
+CursorLine           none              lightgrey
+CursorLineNr         dark              lightgrey
+LineNr               grey              lightgrey
+SignColumn           none              lightgrey
+DiffAdd              none              lightgreen
+DiffChange           none              lightblue
+DiffDelete           none              lightred
+DiffText             none              lightorange
+Directory            blue              none
+EndOfBuffer          grey              none
+ErrorMsg             red               none
+WarningMsg           orange            none
+ModeMsg              blue              none
+MoreMsg              cyan              none
+FoldColumn           grey              lightgrey
+Folded               grey              lightgrey
+IncSearch            none              lightred          underline
+Search               none              lightred          underline
+MatchParen           none              none              bold
+NonText              grey              none
+Pmenu                dark              lightgrey
+PmenuSel             light             grey
+PmenuSbar            none              lightgrey
+PmenuThumb           none              grey
+Question             green             none
+SpellBad             red               none              s=red
+SpellCap             orange            none              s=orange
+SpellLocal           blue              none              s=blue
+SpellRare            magenta           none              s=magenta
+StatusLine           light             grey
+StatusLineNC         dark              lightgrey
+TabLine              dark              lightgrey
+TabLineFill          dark              lightgrey
+TabLineSel           light             grey
+VertSplit            grey              none
+Visual               none              lightgrey
+VisualNOS            none              lightgrey         italic
+WildMenu             dark              lightgrey
+
+Title                magenta           none
+Label                magenta           none
+Conditional          magenta           none
+Todo                 magenta           none
+PreCondit            magenta           none
+Exception            magenta           none
+PreProc              blue           none
+Operator             blue              none
+Typedef              yellow              none
+Keyword              yellow              none
+Delimiter            blue              none
+Special              red               none
+SpecialKey           red               none
+Error                red               none
+Type                 red               none
+StorageClass         red               none
+Identifier           green             none
+Function             green             none
+Statement            green             none
+Tag                  green             none
+String               cyan              none
+Constant             cyan              none
+Character            cyan              none
+Number               cyan              none
+Float                cyan              none
+Comment              grey              none              italic
+SpecialComment       green             none
+Ignore               grey              none
+Underlined           none              none              underline
+# See `:help CursorIM`
+CursorIM             none              fg
+# See `:help window-toolbar`
+ToolbarLine          none              grey
+ToolbarButton        dark              light             bold
+# }}}
+
+# Additional highlight groups {{{
+# html{{{
+htmlTag              blue              none
+htmlTagN             blue              none
+htmlTagName          blue              none
+htmlArg              green             none
+htmlEndTag           magenta           none
+#}}}
+# css{{{
+cssProp              blue              none
+#}}}
+# sass{{{
+sassProperty         blue              none
+#}}}
+# js{{{
+jsFunction           blue              none
+jsParens          -> Delimiter
+jsBraces          -> Delimiter
+#}}}
+# ts{{{
+typescriptParens  -> Delimiter
+typescriptBraces  -> Delimiter
+#}}}
+# py{{{
+pythonStatement      blue              none
+#}}}
+# php{{{
+phpParent         -> Delimiter
+#}}}
+# rust{{{
+rustExternCrate      magenta           none
+rustDerive           magenta           none
+rustSigil            magenta           none
+rustAttribute        red               none
+#}}}
+# haskell{{{
+haskellDecl          blue              none
+haskellDeclKeyword   magenta           none
+#}}}
+# perl{{{
+perlStatement        blue              none
+perlPackageDecl      cyan              none
+#}}}
+# sh{{{
+shFunction           blue              none
+#}}}
+# json{{{
+jsonKeyword          blue              none
+jsonQuote            grey              none
+#}}}
+# yaml{{{
+yamlKey              blue              none
+#}}}
+# toml{{{
+tomlKey              blue              none
+#}}}
+
+# Plugins
+# startify{{{
+StartifyFile         cyan              none
+#}}}
+# ale{{{
+ALEWarningSign       orange            lightgrey
+ALEErrorSign         red               lightgrey
+ALEInfoSign          blue              lightgrey
+ALEError             none              lightred
+ALEWarning           none              lightorange
+ALEVirtualTextError  grey              none
+ALEVirtualTextWarning grey             none
+ALEVirtualTextInfo   grey              none
+ALEVirtualTextStyleError            -> ALEVirtualTextError
+ALEVirtualTextStyleWarning          -> ALEVirtualTextWarning
+#}}}
+# coc{{{
+CocHighlightText     none              none              bold
+CocCodeLens          grey              none
+CocErrorSign      -> ALEErrorSign
+CocWarningSign    -> ALEWarningSign
+CocInfoSign       -> ALEInfoSign
+CocHintSign       -> Label
+CocErrorHighlight -> ALEError
+CocWarningHighlight -> ALEWarning
+CocInfoHighlight  -> ALEInfo
+CocWarningVirtualText -> ALEVirtualTextWarning
+CocErrorVirtualText -> ALEVirtualTextError
+CocInfoVirtualText -> ALEVirtualTextInfo
+CocHintVirtualText -> ALEVirtualTextInfo
+CocCodeLens       -> ALEVirtualTextInfo
+#}}}
+# vim-matchup{{{
+MatchParenCur        none              none              bold
+MatchWord            none              none              underline
+MatchWordCur         none              none              underline
+#}}}
+# sneak{{{
+Sneak                none              lightgreen
+#}}}
+# }}}
+
+# B/W variant {{{
+Include: _bw.colortemplate
+# }}}
