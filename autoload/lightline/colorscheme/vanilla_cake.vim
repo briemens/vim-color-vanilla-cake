@@ -32,9 +32,9 @@ let s:tab_middle_fg = s:dark
 let s:tab_middle_bg = s:lightgrey
 
 let s:warningfg = s:orange
-let s:warningbg = s:lightorange
+let s:warningbg = s:lightgrey
 let s:errorfg = s:red
-let s:errorbg = s:lightred
+let s:errorbg = s:lightgrey
 
 let s:normal_l1_fg = s:light
 let s:normal_l1_bg = s:grey
