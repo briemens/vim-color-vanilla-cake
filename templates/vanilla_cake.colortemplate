@@ -43,10 +43,10 @@ Color: grey          #778b81           ~                 Grey
 Color: dark          #566b60           ~                 Black
 Color: red           #d45770           ~                 Red
 Color: orange        #ce684e           ~                 Yellow
-Color: yellow        #ba7d00           ~                 LightGrey
-Color: brightgreen   #40811f           ~                 Green
-Color: green         #188752           ~                 Green
-Color: cyan          #308090           ~                 Cyan
+Color: yellow        #c58400           ~                 LightGrey
+Color: brightgreen   #518321           ~                 Green
+Color: green         #2a875b           ~                 Green
+Color: cyan          #428374           ~                 Cyan
 Color: blue          #5674a5           ~                 Blue
 Color: magenta       #ba5c95           ~                 Magenta
 Color: lightred      #f6babd           ~                 LightRed
