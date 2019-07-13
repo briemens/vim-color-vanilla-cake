@@ -1,4 +1,4 @@
-*vanilla_cake.txt*	For Vim version 8.0	Last change: 2019 Jun 30
+*vanilla_cake.txt*	For Vim version 8.0	Last change: 2019 Jul 13
 
 
 		  Vanilla Cake 🍰  by Sainnhepark

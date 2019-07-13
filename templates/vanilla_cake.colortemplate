@@ -41,14 +41,14 @@ Color: light         #f9ebd0           ~                 White
 Color: lightgrey     #f6e2ba           ~                 LightGrey
 Color: grey          #778b81           ~                 Grey
 Color: dark          #566b60           ~                 Black
-Color: red           #d45770           ~                 Red
-Color: orange        #ce684e           ~                 Yellow
-Color: yellow        #c58400           ~                 LightGrey
-Color: brightgreen   #518321           ~                 Green
-Color: green         #2a875b           ~                 Green
+Color: red           #d4576a           ~                 Red
+Color: orange        #d26e41           ~                 Yellow
+Color: yellow        #d08800           ~                 LightGrey
+Color: lemon         #6d870c           ~                 LightGreen
+Color: green         #358961           ~                 Green
 Color: cyan          #428374           ~                 Cyan
 Color: blue          #5674a5           ~                 Blue
-Color: magenta       #ba5c95           ~                 Magenta
+Color: magenta       #c56591           ~                 Magenta
 Color: lightred      #f6babd           ~                 LightRed
 Color: lightgreen    #c1e5b1           ~                 LightGreen
 Color: lightorange   #eecbb4           ~                 LightYellow
@@ -133,8 +133,8 @@ Type                 yellow            none
 Constant             green             none
 Function             green             none
 Operator             green             none
-Identifier           brightgreen       none
-Statement            brightgreen       none
+Identifier           lemon             none
+Statement            lemon             none
 String               cyan              none
 Character            cyan              none
 Number               cyan              none
