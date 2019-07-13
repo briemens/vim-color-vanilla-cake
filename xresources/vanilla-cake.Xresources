@@ -1,0 +1,38 @@
+! Author:     Sainnhepark
+! Email:      sainnhe@gmail.com
+! URL:        https://github.com/sainnhe/vim-color-vanilla-cake/
+! License:    MIT && Anti-996
+
+#define white #f9ebd0
+#define black #566b60
+#define grey #778b81
+#define red #d4576a
+#define lemon #6d870c
+#define green #358961
+#define orange #d26e41
+#define yellow #cc8500
+#define blue #5c7aa9
+#define magenta #c56591
+
+*.foreground:   black
+*.background:   white
+*.cursorColor:  black
+*fading: 35
+*fadeColor: grey
+
+*.color0: grey
+*.color1: red
+*.color2: green
+*.color3: orange
+*.color4: blue
+*.color5: magenta
+*.color6: green
+*.color7: white
+*.color8: grey
+*.color9: red
+*.color10: lemon
+*.color11: yellow
+*.color12: blue
+*.color13: magenta
+*.color14: green
+*.color15: white
