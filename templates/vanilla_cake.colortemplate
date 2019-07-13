@@ -27,8 +27,6 @@ SpecialChar       -> Special
 # Other conventional group names (see `:help group-name`)
 Debug             -> Special
 Include           -> PreProc
-Macro             -> PreProc
-Repeat            -> Statement
 # See `:help lCursor`
 lCursor           -> Cursor
 # }}}
@@ -43,11 +41,11 @@ Color: grey          #778b81           ~                 Grey
 Color: dark          #566b60           ~                 Black
 Color: red           #d4576a           ~                 Red
 Color: orange        #d26e41           ~                 Yellow
-Color: yellow        #d08800           ~                 LightGrey
+Color: yellow        #cc8500           ~                 LightGrey
 Color: lemon         #6d870c           ~                 LightGreen
 Color: green         #358961           ~                 Green
 Color: cyan          #428374           ~                 Cyan
-Color: blue          #5674a5           ~                 Blue
+Color: blue          #5c7aa9           ~                 Blue
 Color: magenta       #c56591           ~                 Magenta
 Color: lightred      #f6babd           ~                 LightRed
 Color: lightgreen    #c1e5b1           ~                 LightGreen
@@ -118,23 +116,25 @@ Visual               none              lightgrey
 VisualNOS            none              lightgrey         italic
 WildMenu             light             dark
 
-Label                magenta           none
-Todo                 magenta           none
-PreCondit            magenta           none
-Exception            magenta           none
+Todo                 magenta           none              italic
+PreProc              magenta           none
 Conditional          red               none
+Repeat               red               none
+Exception            red               none
+Macro                red               none
 Title                red               none
-PreProc              red               none
 Error                red               none
+PreCondit            orange            none
 Typedef              orange            none
+Label                orange            none
 Keyword              orange            none
-Delimiter            grey              none
 Type                 yellow            none
 Constant             green             none
 Function             green             none
 Operator             green             none
 Identifier           lemon             none
 Statement            lemon             none
+Delimiter            lemon             none
 String               cyan              none
 Character            cyan              none
 Number               cyan              none
@@ -144,7 +144,7 @@ Special              blue              none
 SpecialKey           blue              none
 Tag                  blue              none
 Comment              grey              none              italic
-SpecialComment       grey              none              bold
+SpecialComment       grey              none              italic
 Ignore               grey              none
 Underlined           none              none              underline
 # See `:help CursorIM`
