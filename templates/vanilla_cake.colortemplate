@@ -117,10 +117,10 @@ VisualNOS            none              lightgrey         italic
 WildMenu             light             dark
 
 Todo                 magenta           none              italic
-PreProc              magenta           none
-Conditional          red               none
-Repeat               red               none
+Conditional          magenta           none
+Repeat               magenta           none
 Exception            red               none
+PreProc              red               none
 Macro                red               none
 Title                red               none
 Error                red               none
