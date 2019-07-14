@@ -408,6 +408,15 @@ moonInterpDelim      yellow            none
 moonInterp           lemon             none
 moonLuaFunc          green             none
 #}}}
+# d{{{
+dEnum                orange            none
+dScopeDecl           red               none
+dStructure           red               none
+dOperator            green             none
+dAssert              red               none
+dAnnotation          orange            none
+dAttribute           lemon             none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
