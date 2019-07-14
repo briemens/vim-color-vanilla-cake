@@ -259,7 +259,6 @@ typescriptGlobal     yellow            none
 typescriptBranch     blue              none
 typescriptLogicSymbols magenta         none
 typescriptStatement  green             none
-typescriptLabel      orange            none
 typescriptExceptions -> Exception
 typescriptParens  -> Delimiter
 typescriptBraces  -> Delimiter
