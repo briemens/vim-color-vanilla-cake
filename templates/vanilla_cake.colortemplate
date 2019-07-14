@@ -201,9 +201,18 @@ cssProp              lemon             none
 cssAttr              green             none
 cssFunctionName      yellow            none
 cssTagName           blue              none
+cssImportant         red               none
 cssBraces         -> Delimiter
 cssSelectorOp     -> Delimiter
 cssSelectorOp2    -> Delimiter
+#}}}
+# sass{{{
+sassDefault          red               none
+sassVariable         green             none
+sassMixing           orange            none
+sassClassChar        orange            none
+sassControl          magenta           none
+sassInclude          red               none
 #}}}
 # json{{{
 jsonKeyword          green             none
