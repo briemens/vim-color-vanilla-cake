@@ -426,6 +426,11 @@ scalaOperator        blue              none
 scalaSpecial         blue              none
 scalaSquareBracketsBrackets -> Delimiter
 #}}}
+# elixir{{{
+elixirModuleDeclaration green          none
+elixirDefine         orange            none
+elixirKeyword        orange            none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
