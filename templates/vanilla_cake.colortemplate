@@ -305,6 +305,12 @@ ktStructure          red               none
 ktStatement          green             none
 ktArrow              blue              none
 #}}}
+# python{{{
+pythonStatement      orange            none
+pythonBuiltinFunc    blue              none
+pythonDecorator      orange            none
+pythonDottedName     red               none
+#}}}
 # json{{{
 jsonKeyword          green             none
 #}}}
