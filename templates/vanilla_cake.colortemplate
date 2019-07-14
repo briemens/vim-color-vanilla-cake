@@ -276,6 +276,17 @@ dartTypedef          orange            none
 dartCoreClasses      red               none
 dartMetadata         magenta           none
 #}}}
+# coffee{{{
+coffeeSpecialVar     yellow            none
+coffeeCurlies        green             none
+coffeeInterp         lemon             none
+coffeeInterpDelim    yellow            none
+coffeeGlobal         red               none
+coffeeObjAssign      green             none
+coffeeParen       -> Delimiter
+coffeeCurly       -> Delimiter
+coffeeBracket     -> Delimiter
+#}}}
 # json{{{
 jsonKeyword          green             none
 #}}}
