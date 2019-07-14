@@ -311,6 +311,13 @@ pythonBuiltinFunc    blue              none
 pythonDecorator      orange            none
 pythonDottedName     red               none
 #}}}
+# go{{{
+goPackage            red               none
+goImport             red               none
+goDeclaration        red               none
+goPredefinedIdentifiers green          none
+goLabel              orange            none
+#}}}
 # json{{{
 jsonKeyword          green             none
 #}}}
