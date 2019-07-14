@@ -503,6 +503,16 @@ vimAutoCmd           blue              none
 jsonKeyword          orange            none
 jsonQuote            lemon             none
 #}}}
+# diff{{{
+diffAdded            green             none
+diffRemoved          red               none
+diffChanged          yellow            none
+diffOldFile          green             none
+diffNewFile          lemon             none
+diffFile             orange            none
+diffLine             blue              none
+diffIndexLine        lemon             none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
