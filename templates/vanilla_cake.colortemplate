@@ -499,6 +499,10 @@ vimAugroupKey        red               none
 vimAugroup           green             none
 vimAutoCmd           blue              none
 #}}}
+# json{{{
+jsonKeyword          orange            none
+jsonQuote            lemon             none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
