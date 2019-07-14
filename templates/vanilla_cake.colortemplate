@@ -385,6 +385,13 @@ perlStatementNumeric green             none
 perlStatementHash    red               none
 perlStringStartEnd -> Delimiter
 #}}}
+# haskell{{{
+haskellDeclKeyword   red               none
+haskellDecl          orange            none
+haskellParens        green             none
+haskellBrackets      green             none
+haskellWhere         red               none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
