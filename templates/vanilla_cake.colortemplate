@@ -459,6 +459,11 @@ erlangGlobalFuncCall green             none
 erlangLocalFuncRef   yellow            none
 erlangRecord         blue              none
 #}}}
+# lisp{{{
+lispFunc             orange            none
+lispDecl             red               none
+lispKey              lemon             none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
