@@ -319,8 +319,15 @@ goDeclaration        red               none
 goPredefinedIdentifiers green          none
 goLabel              orange            none
 #}}}
-# json{{{
-jsonKeyword          green             none
+# rust{{{
+rustExternCrate      yellow            none
+rustSelf             yellow            none
+rustFuncCall         lemon             none
+rustStructure        blue              none
+rustPubScopeCrate    green             none
+#}}}
+# toml{{{
+tomlTable            orange            none
 #}}}
 
 # Plugins
