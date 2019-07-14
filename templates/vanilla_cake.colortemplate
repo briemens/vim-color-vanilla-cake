@@ -326,6 +326,18 @@ rustFuncCall         lemon             none
 rustStructure        blue              none
 rustPubScopeCrate    green             none
 #}}}
+# php{{{
+phpUseClass          green             none
+phpUseAlias          yellow            none
+phpClass             green             none
+phpClasses           red               none
+phpClassExtends      yellow            none
+phpVarSelector       green             none
+phpFunction          green             none
+phpMethod            blue              none
+phpMethodsVar        green             none
+phpMemberSelector -> Delimiter
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
