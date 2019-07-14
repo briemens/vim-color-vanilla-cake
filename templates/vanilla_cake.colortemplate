@@ -464,6 +464,17 @@ lispFunc             orange            none
 lispDecl             red               none
 lispKey              lemon             none
 #}}}
+# sh{{{
+shFunction           red               none
+shQuote              lemon             none
+shDeref              green             none
+shDerefSimple        green             none
+shFunctionOne        yellow            none
+shCommandSub         orange            none
+shStatement          orange            none
+shDerefVar           blue              none
+shCmdSubRegion    -> Delimiter
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
