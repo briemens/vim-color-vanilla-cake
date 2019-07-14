@@ -452,6 +452,13 @@ fortranIntrinsic     yellow            none
 # clojure{{{
 clojureSpecial       orange            none
 #}}}
+# erlang{{{
+erlangType           red               none
+erlangLocalFuncCall  lemon             none
+erlangGlobalFuncCall green             none
+erlangLocalFuncRef   yellow            none
+erlangRecord         blue              none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
