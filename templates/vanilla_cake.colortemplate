@@ -362,6 +362,14 @@ fsharpModule         green             none
 fsharpOption         red               none
 fsharpKeyChar     -> Delimiter
 #}}}
+# ruby{{{
+rubyModuleName       yellow            none
+rubyClass            orange            none
+rubyClassName        green             none
+rubyConstant         lemon             none
+rubyDefine           orange            none
+rubyPseudoVariable   yellow            none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
