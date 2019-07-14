@@ -475,6 +475,15 @@ shStatement          orange            none
 shDerefVar           blue              none
 shCmdSubRegion    -> Delimiter
 #}}}
+# zsh{{{
+zshOptStart          red               none
+zshVariableDef       lemon             none
+zshVariable          lemon             none
+zshKSHFunction       red               none
+zshFunction          red               none
+zshDeref             green             none
+zshSubstDelim     -> Delimiter
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
