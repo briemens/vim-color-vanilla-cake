@@ -178,6 +178,15 @@ mkdBold           -> Comment
 mkdItalic         -> Comment
 mkdRule              magenta           none
 #}}}
+# rst{{{
+rstInterpretedTextOrHyperlinkReference lemon none        underline
+rstStandaloneHyperlink lemon           none              underline
+rstTableLines     -> Delimiter
+#}}}
+# tex{{{
+texBeginEndName      red               none
+texDocTypeArgs       green             none
+#}}}
 # html{{{
 htmlArg              orange            none
 #}}}
