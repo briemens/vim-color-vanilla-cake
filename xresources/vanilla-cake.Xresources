@@ -7,8 +7,9 @@
 #define black #566b60
 #define grey #778b81
 #define red #d4576a
-#define lemon #6d870c
-#define green #358961
+#define lemon #758b00
+#define green #2d8d4c
+#define cyan #36817e
 #define orange #d26e41
 #define yellow #cc8500
 #define blue #5c7aa9
@@ -26,7 +27,7 @@
 *.color3: orange
 *.color4: blue
 *.color5: magenta
-*.color6: green
+*.color6: cyan
 *.color7: white
 *.color8: grey
 *.color9: red
@@ -34,5 +35,5 @@
 *.color11: yellow
 *.color12: blue
 *.color13: magenta
-*.color14: green
+*.color14: cyan
 *.color15: white

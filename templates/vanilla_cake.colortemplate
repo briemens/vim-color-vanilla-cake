@@ -39,9 +39,9 @@ Color: dark          #566b60           ~                 Black
 Color: red           #d4576a           ~                 Red
 Color: orange        #d26e41           ~                 Yellow
 Color: yellow        #cc8500           ~                 LightGrey
-Color: lemon         #6d870c           ~                 LightGreen
-Color: green         #358961           ~                 Green
-Color: cyan          #428374           ~                 Cyan
+Color: lemon         #758b00           ~                 LightGreen
+Color: green         #2d8d4c           ~                 Green
+Color: cyan          #36817e           ~                 Cyan
 Color: blue          #5c7aa9           ~                 Blue
 Color: magenta       #c56591           ~                 Magenta
 Color: lightred      #f6babd           ~                 LightRed
@@ -172,6 +172,7 @@ mkdListItem          blue              none
 mkdInlineURL         yellow            none              underline
 mkdLink              yellow            none
 mkdURL               lemon             none              underline
+mkdCode              green             none
 mkdCodeDelimiter  -> Delimiter
 mkdID                orange            none
 mkdBold           -> Comment
