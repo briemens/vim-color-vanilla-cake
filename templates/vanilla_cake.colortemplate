@@ -294,6 +294,12 @@ purescriptImportAs   orange            none
 purescriptAsKeyword  red               none
 purescriptImportKeyword red            none
 #}}}
+# java{{{
+javaParen         -> Delimiter
+javaScopeDecl        red               none
+javaAnnotation       yellow            none
+javaStatement        green             none
+#}}}
 # json{{{
 jsonKeyword          green             none
 #}}}
