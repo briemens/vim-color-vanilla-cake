@@ -287,6 +287,13 @@ coffeeParen       -> Delimiter
 coffeeCurly       -> Delimiter
 coffeeBracket     -> Delimiter
 #}}}
+# purescript{{{
+purescriptConstructor red              none
+purescriptImport     green             none
+purescriptImportAs   orange            none
+purescriptAsKeyword  red               none
+purescriptImportKeyword red            none
+#}}}
 # json{{{
 jsonKeyword          green             none
 #}}}
