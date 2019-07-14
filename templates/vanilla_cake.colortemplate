@@ -194,6 +194,17 @@ htmlLink             none              none              underline
 htmlBold             none              none              bold
 htmlItalic           none              none              italic
 #}}}
+# css{{{
+cssClassName         orange            none
+cssClassNameDot      yellow            none
+cssProp              lemon             none
+cssAttr              green             none
+cssFunctionName      yellow            none
+cssTagName           blue              none
+cssBraces         -> Delimiter
+cssSelectorOp     -> Delimiter
+cssSelectorOp2    -> Delimiter
+#}}}
 # json{{{
 jsonKeyword          green             none
 #}}}
