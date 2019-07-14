@@ -363,6 +363,7 @@ fsharpOption         red               none
 fsharpKeyChar     -> Delimiter
 #}}}
 # ruby{{{
+rubyModule           red               none
 rubyModuleName       yellow            none
 rubyClass            orange            none
 rubyClassName        green             none
