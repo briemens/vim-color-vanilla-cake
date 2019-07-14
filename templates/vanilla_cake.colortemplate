@@ -400,6 +400,14 @@ luaSpecialValue      yellow            none
 luaSpecialTable      yellow            none
 luaBraces         -> Delimiter
 #}}}
+# moonscript{{{
+moonObject           red               none
+moonObjAssign        lemon             none
+moonDotAccess        yellow            none
+moonInterpDelim      yellow            none
+moonInterp           lemon             none
+moonLuaFunc          green             none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
