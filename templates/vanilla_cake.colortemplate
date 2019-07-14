@@ -371,6 +371,20 @@ rubyConstant         lemon             none
 rubyDefine           orange            none
 rubyPseudoVariable   yellow            none
 #}}}
+# perl{{{
+perlStatementPackage red               none
+perlPackageDecl      green             none
+perlStatementInclude red               none
+perlStatementStorage red               none
+perlOperator         orange            none
+perlStatementList    green             none
+perlMethod           yellow            none
+perlVarSimpleMemberName green          none
+perlStatementScalar  green             none
+perlStatementNumeric green             none
+perlStatementHash    red               none
+perlStringStartEnd -> Delimiter
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
