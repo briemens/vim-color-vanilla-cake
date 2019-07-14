@@ -353,6 +353,15 @@ csContextualStatement orange           none
 csBraces          -> Delimiter
 csParens          -> Delimiter
 #}}}
+# fsharp{{{
+fsharpModifier       red               none
+fsharpSymbol         lemon             none
+fsharpTypeName       green             none
+fsharpCoreClass      red               none
+fsharpModule         green             none
+fsharpOption         red               none
+fsharpKeyChar     -> Delimiter
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
