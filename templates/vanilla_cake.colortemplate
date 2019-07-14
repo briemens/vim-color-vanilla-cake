@@ -440,6 +440,15 @@ ocamlPpxIdentifier   green             none
 ocamlModPath         lemon             none
 ocamlSigEncl         blue              none
 #}}}
+# fortran{{{
+fortranUnitHeader    red               none
+fortranStructure     green             none
+fortranConstructName blue              none
+fortranReadWrite     green             none
+fortranIO            lemon             none
+fortranCall          orange            none
+fortranIntrinsic     yellow            none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
