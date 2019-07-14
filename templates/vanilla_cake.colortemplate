@@ -300,6 +300,11 @@ javaScopeDecl        red               none
 javaAnnotation       yellow            none
 javaStatement        green             none
 #}}}
+# kotlin{{{
+ktStructure          red               none
+ktStatement          green             none
+ktArrow              blue              none
+#}}}
 # json{{{
 jsonKeyword          green             none
 #}}}
