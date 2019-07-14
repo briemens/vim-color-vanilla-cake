@@ -156,6 +156,28 @@ ToolbarButton        dark              light             bold
 
 # Additional highlight groups {{{
 # Filetypes
+# markdown{{{
+markdownLinkText     yellow            none
+markdownUrl          lemon             none              underline
+markdownListMarker   blue              none
+markdownCode         green             none
+markdownId           orange            none
+markdownIdDeclaration orange           none
+markdownBoldDelimiter -> Comment
+markdownItalicDelimiter -> Comment
+markdownBold         none              none              bold
+markdownItalic       none              none              italic
+markdownRule         magenta           none
+mkdListItem          blue              none
+mkdInlineURL         yellow            none              underline
+mkdLink              yellow            none
+mkdURL               lemon             none              underline
+mkdCodeDelimiter  -> Delimiter
+mkdID                orange            none
+mkdBold           -> Comment
+mkdItalic         -> Comment
+mkdRule              magenta           none
+#}}}
 # html{{{
 htmlArg              orange            none
 #}}}
