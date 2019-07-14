@@ -417,6 +417,15 @@ dAssert              red               none
 dAnnotation          orange            none
 dAttribute           lemon             none
 #}}}
+# scala{{{
+scalaCapitalWord     green             none
+scalaKeywordModifier red               none
+scalaNameDefinition  lemon             none
+scalaInstanceDeclaration green         none
+scalaOperator        blue              none
+scalaSpecial         blue              none
+scalaSquareBracketsBrackets -> Delimiter
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
