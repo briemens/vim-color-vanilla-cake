@@ -189,6 +189,10 @@ texDocTypeArgs       green             none
 #}}}
 # html{{{
 htmlArg              orange            none
+htmlEndTag           yellow            none
+htmlLink             none              none              underline
+htmlBold             none              none              bold
+htmlItalic           none              none              italic
 #}}}
 # json{{{
 jsonKeyword          green             none
