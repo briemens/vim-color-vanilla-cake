@@ -196,6 +196,12 @@ htmlLink             none              none              underline
 htmlBold             none              none              bold
 htmlItalic           none              none              italic
 #}}}
+# xml{{{
+xmlTagName        -> htmlTagName
+xmlAttrib         -> htmlArg
+xmlEndTag         -> htmlEndTag
+xmlEqual          -> Operator
+#}}}
 # css{{{
 cssClassName         orange            none
 cssClassNameDot      yellow            none
@@ -337,6 +343,15 @@ phpFunction          green             none
 phpMethod            blue              none
 phpMethodsVar        green             none
 phpMemberSelector -> Delimiter
+#}}}
+# csharp{{{
+csUnspecifiedStatement red             none
+csModifier           red               none
+csNewType            lemon             none
+csClassType          green             none
+csContextualStatement orange           none
+csBraces          -> Delimiter
+csParens          -> Delimiter
 #}}}
 # toml{{{
 tomlTable            orange            none
