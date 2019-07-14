@@ -118,7 +118,6 @@ WildMenu             light             dark
 
 Todo                 magenta           none              italic
 Conditional          magenta           none
-Repeat               magenta           none
 Exception            red               none
 PreProc              red               none
 Macro                red               none
@@ -126,12 +125,12 @@ Title                red               none
 Error                red               none
 PreCondit            orange            none
 Typedef              orange            none
-Label                orange            none
 Keyword              orange            none
+StorageClass         orange            none
+Label                orange            none
 Type                 yellow            none
 Constant             green             none
 Function             green             none
-Operator             green             none
 Identifier           lemon             none
 Statement            lemon             none
 Delimiter            lemon             none
@@ -139,10 +138,11 @@ String               cyan              none
 Character            cyan              none
 Number               cyan              none
 Float                cyan              none
-StorageClass         blue              none
 Special              blue              none
 SpecialKey           blue              none
 Tag                  blue              none
+Operator             blue              none
+Repeat               blue              none
 Comment              grey              none              italic
 SpecialComment       grey              none              italic
 Ignore               grey              none
@@ -218,6 +218,38 @@ scssVariable         green             none
 #}}}
 # less{{{
 lessVariable         yellow            none
+#}}}
+# js{{{
+javaScriptFunction   orange            none
+javaScriptGlobal     yellow            none
+javaScriptNull       yellow            none
+javaScriptStatement  green             none
+javaScriptBranch     blue              none
+javaScriptParens  -> Delimiter
+javaScriptBraces  -> Delimiter
+jsThis               blue              none
+jsVariableDef        lemon             none
+jsObjectProp         yellow            none
+jsFunction           orange            none
+jsOperatorKeyword    blue              none
+jsNull               yellow            none
+jsPrototype          orange            none
+jsAsyncKeyword       red               none
+jsGlobalObjects      red               none
+jsGlobalNodeObjects  red               none
+jsObjectMethodType   orange            none
+jsArrowFunction      orange            none
+jsParens          -> Delimiter
+jsBraces          -> Delimiter
+jsBrackets        -> Delimiter
+jsFuncBraces      -> Delimiter
+jsFuncParens      -> Delimiter
+jsObjectBraces    -> Delimiter
+jsObjectParens    -> Delimiter
+jsSwitchBraces    -> Delimiter
+jsExceptions      -> Exception
+jsRepeatBraces    -> Delimiter
+jsIfElseBraces    -> Delimiter
 #}}}
 # json{{{
 jsonKeyword          green             none
