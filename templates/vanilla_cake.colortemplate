@@ -213,6 +213,11 @@ sassMixing           orange            none
 sassClassChar        orange            none
 sassControl          magenta           none
 sassInclude          red               none
+scssSelectorName     orange            none
+scssVariable         green             none
+#}}}
+# less{{{
+lessVariable         yellow            none
 #}}}
 # json{{{
 jsonKeyword          green             none
