@@ -20,9 +20,6 @@ Include: _help.colortemplate
 QuickFixLine      -> Search
 StatusLineTerm    -> StatusLine
 StatusLineTermNC  -> StatusLineNC
-Structure         -> Type
-Boolean           -> Constant
-Define            -> PreProc
 SpecialChar       -> Special
 # Other conventional group names (see `:help group-name`)
 Debug             -> Special
@@ -118,31 +115,34 @@ WildMenu             light             dark
 
 Todo                 magenta           none              italic
 Conditional          magenta           none
+Repeat               magenta           none
 Exception            red               none
 PreProc              red               none
 Macro                red               none
+Define               red               none
 Title                red               none
 Error                red               none
 PreCondit            orange            none
 Typedef              orange            none
 Keyword              orange            none
 StorageClass         orange            none
-Label                orange            none
 Type                 yellow            none
+Structure            yellow            none
 Constant             green             none
 Function             green             none
 Identifier           lemon             none
-Statement            lemon             none
 Delimiter            lemon             none
+Special              lemon             none
+Boolean              lemon             none
 String               cyan              none
 Character            cyan              none
 Number               cyan              none
 Float                cyan              none
-Special              blue              none
 SpecialKey           blue              none
+Label                blue              none
 Tag                  blue              none
+Statement            blue              none
 Operator             blue              none
-Repeat               blue              none
 Comment              grey              none              italic
 SpecialComment       grey              none              italic
 Ignore               grey              none
@@ -189,6 +189,7 @@ texDocTypeArgs       green             none
 #}}}
 # html{{{
 htmlArg              orange            none
+htmlTagName          lemon             none
 htmlEndTag           yellow            none
 htmlLink             none              none              underline
 htmlBold             none              none              bold
@@ -200,7 +201,9 @@ cssClassNameDot      yellow            none
 cssProp              lemon             none
 cssAttr              green             none
 cssFunctionName      yellow            none
-cssTagName           blue              none
+cssTagName           red               none
+cssPseudoClassId     blue              none
+cssPseudoClassFn     blue              none
 cssImportant         red               none
 cssBraces         -> Delimiter
 cssSelectorOp     -> Delimiter
@@ -210,11 +213,17 @@ cssSelectorOp2    -> Delimiter
 sassDefault          red               none
 sassVariable         green             none
 sassMixing           orange            none
+sassMixinName        green             none
 sassClassChar        orange            none
 sassControl          magenta           none
 sassInclude          red               none
+sassAmpersand        red               none
+sassClass            orange            none
 scssSelectorName     orange            none
 scssVariable         green             none
+scssFunctionName     yellow            none
+scssParameterList    green             none
+scssDefault          red               none
 #}}}
 # less{{{
 lessVariable         yellow            none
@@ -223,15 +232,12 @@ lessVariable         yellow            none
 javaScriptFunction   orange            none
 javaScriptGlobal     yellow            none
 javaScriptNull       yellow            none
-javaScriptStatement  green             none
-javaScriptBranch     blue              none
 javaScriptParens  -> Delimiter
 javaScriptBraces  -> Delimiter
-jsThis               blue              none
+jsThis               yellow            none
 jsVariableDef        lemon             none
 jsObjectProp         yellow            none
 jsFunction           orange            none
-jsOperatorKeyword    blue              none
 jsNull               yellow            none
 jsPrototype          orange            none
 jsAsyncKeyword       red               none
@@ -239,6 +245,7 @@ jsGlobalObjects      red               none
 jsGlobalNodeObjects  red               none
 jsObjectMethodType   orange            none
 jsArrowFunction      orange            none
+jsExceptions      -> Exception
 jsParens          -> Delimiter
 jsBraces          -> Delimiter
 jsBrackets        -> Delimiter
@@ -247,7 +254,6 @@ jsFuncParens      -> Delimiter
 jsObjectBraces    -> Delimiter
 jsObjectParens    -> Delimiter
 jsSwitchBraces    -> Delimiter
-jsExceptions      -> Exception
 jsRepeatBraces    -> Delimiter
 jsIfElseBraces    -> Delimiter
 #}}}
@@ -256,9 +262,7 @@ typescriptStorageClass red             none
 typescriptLabel      red               none
 typescriptGlobalObjects red            none
 typescriptGlobal     yellow            none
-typescriptBranch     blue              none
 typescriptLogicSymbols magenta         none
-typescriptStatement  green             none
 typescriptExceptions -> Exception
 typescriptParens  -> Delimiter
 typescriptBraces  -> Delimiter
