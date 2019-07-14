@@ -484,6 +484,10 @@ zshFunction          red               none
 zshDeref             green             none
 zshSubstDelim     -> Delimiter
 #}}}
+# fish{{{
+fishStatement        orange            none
+fishKeyword          red               none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
