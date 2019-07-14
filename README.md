@@ -2,7 +2,7 @@
 𝐕𝐚𝐧𝐢𝐥𝐥𝐚 𝐂𝐚𝐤𝐞
 </h1>
 
-![](https://user-images.githubusercontent.com/37491630/61182489-76e07b00-a623-11e9-8647-ef25de4ce82d.png)
+![](https://user-images.githubusercontent.com/37491630/61182520-e8202e00-a623-11e9-8ff2-7c2497f0f0b2.png)
 
 ## Installation
 
