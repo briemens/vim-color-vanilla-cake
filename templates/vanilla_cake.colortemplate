@@ -431,6 +431,15 @@ elixirModuleDeclaration green          none
 elixirDefine         orange            none
 elixirKeyword        orange            none
 #}}}
+# ocaml{{{
+ocamlKeyChar      -> Delimiter
+ocamlPpxEncl         yellow            none
+ocamlStruct          yellow            none
+ocamlArrow           blue              none
+ocamlPpxIdentifier   green             none
+ocamlModPath         lemon             none
+ocamlSigEncl         blue              none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
