@@ -528,6 +528,17 @@ helpExample          green             none
 # Plugins
 # startify{{{
 StartifySection      orange            none
+StartifyNumber       yellow            none
+StartifyPath         lemon             none
+StartifyFile         cyan              none
+StartifySlash        green             none
+StartifySpecial      blue              none
+#}}}
+# nerdtree{{{
+NERDTreeFlags        orange            none
+NERDTreeDirSlash     lemon             none
+NERDTreeLinkFile  -> Comment
+NERDTreeLinkTarget   green             none
 #}}}
 # ale{{{
 ALEWarningSign       orange            lightgrey
