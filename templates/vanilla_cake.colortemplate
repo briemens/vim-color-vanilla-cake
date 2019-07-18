@@ -10,6 +10,7 @@ Website:             https://github.com/sainnhe/vim-color-vanilla-cake/
 Description:         🍰 Light & Eye-friendly Color Scheme
 License:             MIT && Anti-996
 Option Prefix:       light
+Neovim:              yes
 # }}}
 
 # Documentation {{{
