@@ -10,11 +10,12 @@
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
 let s:light = [ '#f9ebd0', 0 ]
+let s:lightalt = [ '#f6e5c3', 0 ]
 let s:lightgrey = [ '#f6e2ba', 0 ]
 let s:grey = [ '#778b81', 0 ]
 let s:dark = [ '#566b60', 0 ]
 let s:red = [ '#db5872', 0 ]
-let s:orange = [ '#d26e41', 0 ]
+let s:yellow = [ '#cc8500', 0 ]
 let s:lightred = [ '#f6babd', 0 ]
 let s:lightorange = [ '#eecbb4', 0 ]
 let s:green = [ '#719460', 0 ]
@@ -29,9 +30,9 @@ let s:tab_r_bg = s:grey
 let s:tab_sel_fg = s:light
 let s:tab_sel_bg = s:grey
 let s:tab_middle_fg = s:dark
-let s:tab_middle_bg = s:lightgrey
+let s:tab_middle_bg = s:lightalt
 
-let s:warningfg = s:orange
+let s:warningfg = s:yellow
 let s:warningbg = s:lightgrey
 let s:errorfg = s:red
 let s:errorbg = s:lightgrey
