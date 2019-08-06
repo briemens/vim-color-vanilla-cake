@@ -106,6 +106,29 @@ typescriptExceptions -> Exception
 typescriptParens -> Delimiter
 typescriptBraces -> Delimiter
 typescriptEndColons -> Delimiter
+
+typescriptImport -> Red
+typescriptExport -> Red
+typescriptVariable -> Orange
+typescriptVariableDeclaration -> Lemon
+typescriptAliasDeclaration -> Green
+typescriptClassName -> Green
+typescriptReadonlyModifier -> Magenta
+typescriptMethodAccessor -> Red
+typescriptDOMFormProp -> Green
+typescriptCall -> Green
+typescriptOperator -> Blue
+typescriptArrowFunc -> Blue
+typescriptIdentifier -> Lemon
+typescriptTypeReference -> Yellow
+typescriptArrowFuncArg -> Lemon
+typescriptAsyncFuncKeyword -> Magenta
+typescriptTemplateSB -> Green
+typescriptGlobal -> Red
+typescriptObjectLabel -> Green
+typescriptCase -> Blue
+typescriptBranch -> Orange
+typescriptNull -> Yellow
 #}}}
 # dart{{{
 dartClassDecl -> Red
