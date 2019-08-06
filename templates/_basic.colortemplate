@@ -26,11 +26,11 @@ DiffChange           none              lightblue
 DiffDelete           none              lightred
 DiffText             none              lightorange
 Directory            green             none
-EndOfBuffer          grey              none
+EndOfBuffer          light             light
 ErrorMsg             red               none
 WarningMsg           orange            none
-ModeMsg              blue              none
-MoreMsg              cyan              none
+ModeMsg              blue              none              bold
+MoreMsg              cyan              none              bold
 FoldColumn           grey              lightgrey
 Folded               grey              lightgrey
 IncSearch            none              lightgreen        underline
