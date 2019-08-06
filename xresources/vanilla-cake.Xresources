@@ -6,9 +6,9 @@
 #define white #f9ebd0
 #define black #566b60
 #define grey #778b81
-#define red #d4576a
+#define red #db5872
 #define lemon #758b00
-#define green #2d8d4c
+#define green #428959
 #define cyan #36817e
 #define orange #d26e41
 #define yellow #cc8500

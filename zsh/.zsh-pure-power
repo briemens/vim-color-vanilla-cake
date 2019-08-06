@@ -57,7 +57,7 @@ fi
   fi
   if [[ "$ICE_AGE_PURE_POWER_TRUE_COLOR" == "true" ]]; then
     local ok="%F{#d26e41}${p}%f"
-    local err="%F{#d4576a}${p}%f"
+    local err="%F{#db5872}${p}%f"
   else
     local ok="%F{$(_pp_s 000 240)}${p}%f"
     local err="%F{$(_pp_s 001 131)}${p}%f"
@@ -101,7 +101,7 @@ fi
   fi
   if [[ "$ICE_AGE_PURE_POWER_TRUE_COLOR" == "true" ]]; then
     typeset -g POWERLEVEL9K_DIR_{ETC,DEFAULT}_FOREGROUND='#d26e41'
-    typeset -g POWERLEVEL9K_DIR_{HOME,HOME_SUBFOLDER}_FOREGROUND='#2d8d4c'
+    typeset -g POWERLEVEL9K_DIR_{HOME,HOME_SUBFOLDER}_FOREGROUND='#428959'
     typeset -g POWERLEVEL9K_DIR_NOT_WRITABLE_FOREGROUND='#c56591'
   else
     typeset -g POWERLEVEL9K_DIR_{ETC,DEFAULT}_FOREGROUND=$(_pp_c 005 95)
@@ -161,7 +161,7 @@ fi
   typeset -g POWERLEVEL9K_STATUS_OK=false
   typeset -g POWERLEVEL9K_STATUS_ERROR_BACKGROUND=none
   if [[ "$ICE_AGE_PURE_POWER_TRUE_COLOR" == "true" ]]; then
-    typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND='#d4576a'
+    typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND='#db5872'
   else
     typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND=$(_pp_c 001 131)
   fi
