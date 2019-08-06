@@ -3,8 +3,11 @@
 # markdown{{{
 markdownBold none none bold
 markdownItalic none none italic
+markdownUrl lemon none underline
+markdownItalicDelimiter grey none italic
 mkdInlineURL yellow none underline
 mkdURL lemon none underline
+mkdItalic grey none italic
 #}}}
 # rst{{{
 rstInterpretedTextOrHyperlinkReference lemon none underline
