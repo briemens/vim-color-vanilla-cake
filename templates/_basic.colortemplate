@@ -16,11 +16,11 @@ ColorColumn          fg                light
 Conceal              grey              none
 Cursor               none              none              reverse
 lCursor              none              none              reverse
-CursorColumn         none              lightgrey
-CursorLine           none              lightgrey
-CursorLineNr         dark              lightgrey
-LineNr               grey              lightgrey
-SignColumn           none              lightgrey
+CursorColumn         none              lightalt
+CursorLine           none              lightalt
+CursorLineNr         dark              lightalt
+LineNr               grey              lightalt
+SignColumn           none              lightalt
 DiffAdd              none              lightgreen
 DiffChange           none              lightblue
 DiffDelete           none              lightred

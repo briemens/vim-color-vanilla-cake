@@ -3,9 +3,9 @@
 # ale{{{
 ALEError none lightred
 ALEWarning none lightorange
-ALEWarningSign orange lightgrey
-ALEErrorSign red lightgrey
-ALEInfoSign blue lightgrey
+ALEWarningSign orange lightalt
+ALEErrorSign red lightalt
+ALEInfoSign blue lightalt
 #}}}
 # coc{{{
 CocHighlightText none none bold
@@ -17,4 +17,33 @@ MatchWordCur none none underline
 #}}}
 # sneak{{{
 Sneak none lightgreen
+#}}}
+# EasyMotion: {{{
+EasyMotionTarget none lightgreen
+# }}}
+# GitGutter {{{
+GitGutterAdd lemon lightalt
+GitGutterChange yellow lightalt
+GitGutterDelete red lightalt
+GitGutterChangeDelete magenta lightalt
+# }}}
+# Signify {{{
+SignifySignAdd lemon lightalt
+SignifySignChange yellow lightalt
+SignifySignDelete red lightalt
+# }}}
+# Syntastic {{{
+SyntasticError none none t=underline g=undercurl s=red
+SyntasticWarning none none t=underline g=undercurl s=yellow
+SyntasticErrorSign red lightalt
+SyntasticWarningSign yellow lightalt
+# }}}
+# LeaderF {{{
+Lf_hl_match lemon none bold
+Lf_hl_match0 lemon none bold
+Lf_hl_match1 green none bold
+Lf_hl_match2 yellow none bold
+Lf_hl_match3 blue none bold
+Lf_hl_match4 red none bold
+Lf_hl_matchRefine magenta none bold
 #}}}
