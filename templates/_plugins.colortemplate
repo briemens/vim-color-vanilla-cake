@@ -54,6 +54,15 @@ CocCodeLens -> ALEVirtualTextInfo
 # EasyMotion: {{{
 EasyMotionShade -> Grey
 # }}}
+# Tagbar{{{
+TagbarFoldIcon -> Lemon
+TagbarSignature -> Lemon
+TagbarKind -> Red
+TagbarScope -> Orange
+TagbarNestedKind -> Blue
+TagbarVisibilityPrivate -> Red
+TagbarVisibilityPublic -> Blue
+#}}}
 # FZF {{{
 verbatim
 let g:fzf_colors = {
