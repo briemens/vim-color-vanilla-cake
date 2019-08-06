@@ -1,0 +1,38 @@
+# vim: ft=colortemplate fdm=marker cc=22,40,58
+
+# startify{{{
+StartifySection -> Orange
+StartifyNumber -> Yellow
+StartifyPath -> Lemon
+StartifyFile -> Cyan
+StartifySlash -> Green
+StartifySpecial -> Blue
+#}}}
+# nerdtree{{{
+NERDTreeFlags -> Orange
+NERDTreeDirSlash -> Lemon
+NERDTreeLinkFile -> Grey
+NERDTreeLinkTarget -> Green
+#}}}
+# ale{{{
+ALEVirtualTextError -> Grey
+ALEVirtualTextWarning -> Grey
+ALEVirtualTextInfo -> Grey
+ALEVirtualTextStyleError -> ALEVirtualTextError
+ALEVirtualTextStyleWarning -> ALEVirtualTextWarning
+#}}}
+# coc{{{
+CocCodeLens -> Grey
+CocErrorSign -> ALEErrorSign
+CocWarningSign -> ALEWarningSign
+CocInfoSign -> ALEInfoSign
+CocHintSign -> Label
+CocErrorHighlight -> ALEError
+CocWarningHighlight -> ALEWarning
+CocInfoHighlight -> ALEInfo
+CocWarningVirtualText -> ALEVirtualTextWarning
+CocErrorVirtualText -> ALEVirtualTextError
+CocInfoVirtualText -> ALEVirtualTextInfo
+CocHintVirtualText -> ALEVirtualTextInfo
+CocCodeLens -> ALEVirtualTextInfo
+#}}}

@@ -1,0 +1,20 @@
+# vim: ft=colortemplate fdm=marker cc=22,40,58
+
+# markdown{{{
+markdownBold none none bold
+markdownItalic none none italic
+mkdInlineURL yellow none underline
+mkdURL lemon none underline
+#}}}
+# rst{{{
+rstInterpretedTextOrHyperlinkReference lemon none underline
+rstStandaloneHyperlink lemon none underline
+#}}}
+# html{{{
+htmlLink none none underline
+htmlBold none none bold
+htmlItalic none none italic
+#}}}
+# help{{{
+helpURL cyan none underline
+#}}}
