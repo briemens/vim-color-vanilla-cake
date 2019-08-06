@@ -56,10 +56,10 @@ fi
     p=$ins
   fi
   if [[ "$ICE_AGE_PURE_POWER_TRUE_COLOR" == "true" ]]; then
-    local ok="%F{#d26e41}${p}%f"
+    local ok="%F{#758b00}${p}%f"
     local err="%F{#db5872}${p}%f"
   else
-    local ok="%F{$(_pp_s 000 240)}${p}%f"
+    local ok="%F{$(_pp_s 010 64)}${p}%f"
     local err="%F{$(_pp_s 001 131)}${p}%f"
   fi
 
@@ -114,12 +114,12 @@ fi
   if [[ "$ICE_AGE_PURE_POWER_TRUE_COLOR" == "true" ]]; then
     typeset -g POWERLEVEL9K_VCS_CLEAN_FOREGROUND='#5c7aa9'
     typeset -g POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='#758b00'
-    typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='#d26e41'
+    typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='#cc8500'
     typeset -g POWERLEVEL9K_VCS_LOADING_FOREGROUND='#778b81'
   else
     typeset -g POWERLEVEL9K_VCS_CLEAN_FOREGROUND=$(_pp_c 004 67)
     typeset -g POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND=$(_pp_c 003 130)
-    typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND=$(_pp_c 005 95)
+    typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND=$(_pp_c 011 172)
     typeset -g POWERLEVEL9K_VCS_LOADING_FOREGROUND=$(_pp_c 006 37)
   fi
   typeset -g POWERLEVEL9K_VCS_{CLEAN,UNTRACKED,MODIFIED}_UNTRACKEDFORMAT_FOREGROUND=$POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND
