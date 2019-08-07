@@ -1,7 +1,7 @@
 # vim: ft=colortemplate fdm=marker cc=22,40,58
 
 Color: light         #f9ebd0           ~                 White
-Color: lightalt      #f6e5c3           ~                 LightGrey
+Color: lightalt      #f9e6c4           ~                 LightGrey
 Color: lightgrey     #f6e2ba           ~                 LightGrey
 Color: grey          #778b81           ~                 Grey
 Color: dark          #566b60           ~                 Black

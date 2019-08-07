@@ -10,7 +10,7 @@
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
 let s:light = [ '#f9ebd0', 0 ]
-let s:lightalt = [ '#f6e5c3', 0 ]
+let s:lightalt = [ '#f9e8c9', 0 ]
 let s:lightgrey = [ '#f6e2ba', 0 ]
 let s:grey = [ '#778b81', 0 ]
 let s:dark = [ '#566b60', 0 ]
