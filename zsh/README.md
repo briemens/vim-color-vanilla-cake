@@ -1,4 +1,4 @@
-![zsh](https://user-images.githubusercontent.com/37491630/62539658-4320fb80-b845-11e9-8a3c-6a301312b0a4.png)
+![zsh](https://user-images.githubusercontent.com/37491630/62612173-72dc0c00-b8f6-11e9-8100-d9db89ded678.png)
 
 # Syntax Highlighting
 
