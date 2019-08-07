@@ -5,13 +5,13 @@ Color: lightalt      #f6e5c3           ~                 LightGrey
 Color: lightgrey     #f6e2ba           ~                 LightGrey
 Color: grey          #778b81           ~                 Grey
 Color: dark          #566b60           ~                 Black
-Color: red           #d85d75           ~                 Red
+Color: red           #db5e76           ~                 Red
 Color: orange        #d87345           ~                 Yellow
 Color: yellow        #d08800           ~                 LightGrey
 Color: lemon         #758b00           ~                 LightGreen
 Color: green         #4e8961           ~                 Green
-Color: cyan          #36817e           ~                 Cyan
-Color: blue          #5c7aa9           ~                 Blue
+Color: cyan          #3e8380           ~                 Cyan
+Color: blue          #5e7cab           ~                 Blue
 Color: magenta       #c96794           ~                 Magenta
 Color: lightred      #f6babd           ~                 LightRed
 Color: lightgreen    #c1e5b1           ~                 LightGreen
