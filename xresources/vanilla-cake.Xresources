@@ -6,13 +6,13 @@
 #define white #f9ebd0
 #define black #566b60
 #define grey #778b81
-#define red #d85d75
+#define red #db5e76
 #define lemon #758b00
 #define green #4e8961
-#define cyan #36817e
+#define cyan #3e8380
 #define orange #d87345
 #define yellow #d08800
-#define blue #5c7aa9
+#define blue #5e7cab
 #define magenta #c96794
 
 *.foreground:   black
