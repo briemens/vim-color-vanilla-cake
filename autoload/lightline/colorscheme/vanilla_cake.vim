@@ -14,12 +14,12 @@ let s:lightalt = [ '#f6e5c3', 0 ]
 let s:lightgrey = [ '#f6e2ba', 0 ]
 let s:grey = [ '#778b81', 0 ]
 let s:dark = [ '#566b60', 0 ]
-let s:red = [ '#db5872', 0 ]
-let s:yellow = [ '#cc8500', 0 ]
+let s:red = [ '#d85d75', 0 ]
+let s:yellow = [ '#d08800', 0 ]
 let s:lightred = [ '#f6babd', 0 ]
 let s:lightorange = [ '#eecbb4', 0 ]
 let s:green = [ '#719460', 0 ]
-let s:magenta = [ '#c56591', 0 ]
+let s:magenta = [ '#c96794', 0 ]
 "}}}
 
 "{{{Definition
