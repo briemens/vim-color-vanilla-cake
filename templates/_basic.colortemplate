@@ -24,7 +24,7 @@ SignColumn           none              lightalt
 DiffAdd              none              lightgreen
 DiffChange           none              lightblue
 DiffDelete           none              lightred
-DiffText             none              lightorange
+DiffText             none              light             reverse
 Directory            green             none
 EndOfBuffer          light             light
 ErrorMsg             red               none

@@ -1,8 +1,9 @@
 # vim: ft=colortemplate fdm=marker cc=22,40,58
 
 # ale{{{
-ALEError none lightred
-ALEWarning none lightorange
+ALEError none none t=underline g=undercurl s=red
+ALEWarning none none t=underline g=undercurl s=yellow
+ALEInfo none none t=underline g=undercurl s=blue
 ALEWarningSign orange lightalt
 ALEErrorSign red lightalt
 ALEInfoSign blue lightalt
