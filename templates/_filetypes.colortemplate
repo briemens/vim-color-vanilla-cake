@@ -58,6 +58,9 @@ sassControl -> Magenta
 sassInclude -> Red
 sassAmpersand -> Red
 sassClass -> Orange
+sassFunction -> Yellow
+#}}}
+# scss{{{
 scssSelectorName -> Orange
 scssVariable -> Green
 scssFunctionName -> Yellow
@@ -65,7 +68,8 @@ scssParameterList -> Green
 scssDefault -> Red
 #}}}
 # less{{{
-lessVariable -> Yellow
+lessVariable -> Green
+lessFunction -> Yellow
 #}}}
 # js{{{
 javaScriptFunction -> Orange
