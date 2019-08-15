@@ -287,8 +287,19 @@ scalaSquareBracketsBrackets -> Delimiter
 #}}}
 # elixir{{{
 elixirModuleDeclaration -> Green
-elixirDefine -> Orange
 elixirKeyword -> Orange
+elixirModuleDefine -> Orange
+elixirProtocolDefine -> Orange
+elixirImplDefine -> Orange
+elixirRecordDefine -> Orange
+elixirPrivateRecordDefine -> Orange
+elixirMacroDefine -> Orange
+elixirPrivateMacroDefine -> Orange
+elixirDelegateDefine -> Orange
+elixirOverridableDefine -> Orange
+elixirExceptionDefine -> Orange
+elixirCallbackDefine -> Orange
+elixirStructDefine -> Orange
 #}}}
 # ocaml{{{
 ocamlKeyChar -> Delimiter
