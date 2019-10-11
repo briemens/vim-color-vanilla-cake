@@ -14,6 +14,10 @@ hi clear
 if exists('syntax_on')
   syntax reset
 endif
+let g:airline_theme='zenburn'
+if exists('AirlineTheme')
+  AirlineTheme zenburn
+endif
 
 let g:colors_name = 'vanilla-cake'
 
